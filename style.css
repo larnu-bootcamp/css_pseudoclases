@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.boxs {
+  display: flex;
+  gap: 40px;
+  flex-direction: row;
+  height: 80vh;
+  align-items: baseline;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+  width: 500px;
+  border: 1px solid blueviolet;
+}
+
+.box h5 {
+  background-color: greenyellow;
+}
+
+.box a:hover {
+  background-color: red;
+  color: white;
+}
+
+.master:hover {
+  background-color: red;
+  color: white;
+}
+
+.thirdbox p:first-child {
+  background-color: red;
+  color: white;
+}
+
+.box input:focus {
+  background-color: red;
+}
+
+.fifth p::first-line {
+  background-color: red;
+  color: white;
+}
+
+.sixth p::first-letter {
+  background-color: red;
+  color: white;
+}
+
+.seventh::before {
+  content: url(/img/smiley.gif)
+}
+
+.seventh::after {
+  content: url(/img/smiley.gif)
+}
